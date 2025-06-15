@@ -1,0 +1,24 @@
+{
+  "user": {
+    "login": [
+      {
+        "path": "",
+        "request_method": "POST",
+        "package": "user_handler",
+        "class": "UserHandler",
+        "method": "login"
+      }
+    ]
+  },
+  "content": {
+    "generate": [
+      {
+        "path": "",
+        "request_method": "POST",
+        "package": "content_handler",
+        "class": "ContentGenerator",
+        "method": "generate"
+      }
+    ]
+  }
+}
